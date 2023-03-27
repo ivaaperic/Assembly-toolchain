@@ -1,0 +1,18 @@
+#ifndef _LINKER_H
+#define _LINKER_H
+#include <iostream>
+#include <fstream>
+#include <stdlib.h>
+#include <string>
+#include <sstream>
+#include <stdio.h>
+#include <iterator>
+#include <algorithm>
+
+#include <vector>
+#include "util.hpp"
+using namespace std;
+
+void linkuj(vector<string> ulazniFajl, string izlazniFajl);
+
+#endif
